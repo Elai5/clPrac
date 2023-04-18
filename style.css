@@ -412,3 +412,52 @@ img{
     text-decoration: none;
     color: black;
 }
+.gallery{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    box-sizing: border-box;
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.porty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    /* background: #676cdb; */
+    height: 600px;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    background: #000;
+    margin: 10px;
+    
+}
+.cards img{
+    width: 74%;
+    height: auto;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 13px;
+
+    /* position: absolute; */
+}
+.carda img{
+    width: 74%;
+    height: auto;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 13px;
+
+    /* position: absolute; */
+}
