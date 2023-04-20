@@ -692,3 +692,24 @@ form textarea{
     color: white;
     background: black;
 }
+
+/* footer section */
+.iconic{
+    /* background: #676cdb; */
+    background: red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iconic i{
+    font-size: 34px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin: 0 15px;
+}
+#footer p{
+    color: white;
+}
