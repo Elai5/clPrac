@@ -695,8 +695,7 @@ form textarea{
 
 /* footer section */
 .iconic{
-    /* background: #676cdb; */
-    background: red;
+    background: #676cdb;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -711,5 +710,64 @@ form textarea{
     margin: 0 15px;
 }
 #footer p{
-    color: white;
+    color: whitge;
+}
+
+/* testimonial part */
+.testimony{
+    background: pink;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-header{
+    background: red;
+    width: 100%;
+
+}
+.sub-header h2{
+    color: #676cdb;
+}
+.sub-header h1{
+    color: #000;
+    font-weight: 800px;
+    font-size:48px;
+    line-height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}.tcard{
+    background:white;
+    width: 600px;
+    height: 45vh;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 25px;
+    box-shadow: 0px 20px 35px 10px rgba(4, 9, 30, 0.05);
+}
+.tcard p{
+    color: #9f9f9f;
+    line-height: 25px;
+}
+.client{
+    background: red;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.client-img img{
+    border-radius: 55%;
+    width: 15%;
+    /* display: flex;*/
+}
+.ttext{
+    display: flex;
 }
