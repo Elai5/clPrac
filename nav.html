@@ -17,9 +17,9 @@
     <div class="nav">
         <h1>@axo<span>.me</span></h1>
         <ul>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#portfolio">work</a></li>
-            <li><a href="#blog">blog</a></li>
+            <li><a href="#service" target="_blank">Services</a></li>
+            <li><a href="#portfolio" target="_self">work</a></li>
+            <li><a href="#blog" target="_top">blog</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
         <div class="social">
@@ -310,11 +310,12 @@
                     </ul>
                     <div class="contact-form">
                         <form action="" method="post">
-                            <label for="name">Name</label><br>
-                            <input type="text" class="field" required><br>
-                            <label for="email">Email</label><br>
-                            <input type="email" class="field" required>
-                            <label for="msg">Message</label><br>
+                            <!-- <label for="name">Name</label><br> -->
+                            <input type="text" placeholder="Name" required>
+                            <hr>
+                            <input type="email" placeholder="Email"><br>
+                            <hr><br>
+                            <input type="msg" placeholder="Message"><br>
                             <textarea name="Message" id="" cols="30" rows="10"></textarea>
                             <a href="#"><button class="btnc">Send me message</button></a>
                             </div>
